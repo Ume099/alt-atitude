@@ -18,8 +18,10 @@
       "persistent": true,
       "dependsOn": ["^dev"]
     },
-    "hono:dev": {
-      "cache": false
+    "dev:hono": {
+      "cache": false,
+      "persistent": true,
+      "dependsOn": ["^hono#dev"]
     }
   }
 }
