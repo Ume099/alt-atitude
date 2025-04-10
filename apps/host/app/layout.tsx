@@ -1,11 +1,10 @@
-import type { Metadata } from "next";
 import "./globals.css";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Docs",
-  description: "",
+  title: "host",
+  description: "ホストページ(localhost:3000)",
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -13,7 +12,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body>
+        <main>{children}</main>
+      </body>
     </html>
   );
 }

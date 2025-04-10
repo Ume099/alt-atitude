@@ -21,6 +21,11 @@
     "typescript": "5.7.3"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@heroui/react": "^2.7.5",
+    "@mui/material": "^6.4.7",
+    "framer-motion": "^12.5.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   }
